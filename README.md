@@ -7,18 +7,18 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
 1. **Memperbarui dan Menginstal Dependensi:**
    Pertama, jalankan perintah berikut untuk memperbarui paket dan menginstal dependensi yang diperlukan:
    
-   apt update -y && apt upgrade -y
-   pkg up -y openssl curl python openssh
+   - apt update -y && apt upgrade -y
+   - pkg up -y openssl curl python openssh
   
 2. **Unduh Google Cloud CLI:**
    Selanjutnya, unduh Google Cloud CLI dengan perintah ini:
    
-   curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-439.0.0-linux-arm.tar.gz
+   - curl -O https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-cli-439.0.0-linux-arm.tar.gz
   
 3. **Ekstrak Google Cloud CLI:**
    Ekstrak arsip Google Cloud CLI yang telah diunduh:
   
-   tar -xf google-cloud-cli-439.0.0-linux-arm.tar.gz
+   - tar -xf google-cloud-cli-439.0.0-linux-arm.tar.gz
 
 4. **Instal Google Cloud CLI:**
    Instal Google Cloud CLI dengan menjalankan skrip instalasi:
@@ -58,11 +58,11 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
    jika semuanya sudah terinstall, silahkan buatkan bash shell dengan perintah :
 
    nano shell.sh
-   
-   paster kode di bawah ini :
+
+paste kode di bawah ini :
    
    #!/bin/bash
    gcloud alpha cloud-shell ssh --authorize-session
    
-   jika sudah silakan keluar dan simpan dengan ctrl + -X, jalankan dalam termux kalian :
+jika sudah silakan keluar dan simpan dengan ctrl + -X, jalankan dalam termux kalian :
    ./shell.sh
