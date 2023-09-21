@@ -23,7 +23,7 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
 4. **Instal Google Cloud CLI:**
    Instal Google Cloud CLI dengan menjalankan skrip instalasi:
    
-   ./google-cloud-sdk/install.sh
+   - ./google-cloud-sdk/install.sh
    - Pilih Y
    - Pilih Y
    - Tekan Enter
@@ -31,7 +31,7 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
 5. **Inisialisasi Google Cloud CLI:**
    Inisialisasi Google Cloud CLI dengan perintah berikut:
    
-   ./google-cloud-sdk/bin/gcloud init
+   - ./google-cloud-sdk/bin/gcloud init
    - Pilih Y
    - Pilih Y
    - Pilih N
@@ -39,7 +39,7 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
 6. **Akses Google Cloud Shell:**
    Gunakan perintah ini untuk mengakses Google Cloud Shell:
    
-   gcloud alpha cloud-shell ssh
+   - gcloud alpha cloud-shell ssh
    
    - Pilih Y
    - Tekan Enter
@@ -48,21 +48,21 @@ sebelum menjalankan perintah di bawah ini, teman-teman perlu mendaftar terlebih 
    Jika perintah pada langkah 6 tidak berhasil, gunakan perintah berikut untuk mengotorisasi sesi:
    Perintah shell untuk dijalankan sebelum menggunakan perintah no. 8
    
-   gcloud alpha cloud-shell ssh --authorize-session
+   - gcloud alpha cloud-shell ssh --authorize-session
    
 8. **Login Tanpa Sandi dan Password:**
    Terakhir perintah, untuk login tanpa memasukkan sandi dan password, jalankan perintah berikut:
    
-   gcloud auth login --no-launch-browser
+   - gcloud auth login --no-launch-browser
 
    jika semuanya sudah terinstall, silahkan buatkan bash shell dengan perintah :
 
-   nano shell.sh
+   - nano shell.sh
 
 paste kode di bawah ini :
    
    #!/bin/bash
-   gcloud alpha cloud-shell ssh --authorize-session
+   - gcloud alpha cloud-shell ssh --authorize-session
    
 jika sudah silakan keluar dan simpan dengan ctrl + -X, jalankan dalam termux kalian :
-   ./shell.sh
+   - ./shell.sh
